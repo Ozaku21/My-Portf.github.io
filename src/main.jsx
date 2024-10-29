@@ -6,7 +6,7 @@ import "./style.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/My-Portf.github.io">
       <App />
     </BrowserRouter>
   </StrictMode>
