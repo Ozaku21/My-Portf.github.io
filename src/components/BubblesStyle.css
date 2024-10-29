@@ -1,0 +1,54 @@
+.bubbles {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  place-items: center;
+  width: 100%;
+  height: 90%;
+  z-index: -1;
+}
+.bubbles > div {
+  transition: 0.3s ease;
+}
+
+.bubbles .active {
+  opacity: 1 !important;
+  transform: scale(1.02);
+}
+
+.green {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  background-color: #14ff14;
+  box-shadow: 0 0 5rem 5px #14ff14;
+  opacity: 0.7;
+}
+
+.yellow {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  background-color: #ffff14;
+  box-shadow: 0 0 5rem 5px #ffff14;
+  opacity: 0.7;
+}
+
+.pink {
+  height: 12rem;
+  width: 12em;
+  border-radius: 50%;
+  background-color: #fd02ae;
+  box-shadow: 0 0 5rem 5px #fd02ae;
+  opacity: 0.7;
+}
+
+.purple {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  background-color: #4f14eb;
+  box-shadow: 0 0 5rem 5px #4f14eb;
+  opacity: 0.7;
+}

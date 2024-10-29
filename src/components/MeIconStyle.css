@@ -1,0 +1,39 @@
+/* .img-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.My-icon {
+  max-width: 10rem;
+  max-height: 10rem;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.2s ease-out;
+}
+
+.My-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 2rem 0.3rem #ffffff50;
+}
+
+/* .My-icon-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.My-icon-div h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+} */
+/* 
+a {
+  text-decoration: none;
+} */

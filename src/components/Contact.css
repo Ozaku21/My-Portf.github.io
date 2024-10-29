@@ -1,0 +1,36 @@
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 5rem;
+  transition: opacity 1s ease;
+}
+
+.contacts div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #1a1a1a99;
+  width: 20rem;
+  height: 20rem;
+  animation: floatUp 1s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.contacts div span {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
