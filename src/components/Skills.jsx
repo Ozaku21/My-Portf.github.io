@@ -33,7 +33,7 @@ function Skills() {
           <progress value="100" max="100"></progress>
         </div>
         <div className="progress-div">
-          <span>CSS</span>
+          <span>CSS / Tailwind CSS</span>
           <progress value="90" max="100"></progress>
         </div>
         <div className="progress-div">
