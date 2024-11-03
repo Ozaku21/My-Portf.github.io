@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import Me from "../../public/me.png";
+import Me from "../../src/me.png";
 
 function Skills() {
   const [isLoading, setIsLoading] = useState(true);

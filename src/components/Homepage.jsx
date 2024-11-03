@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { useState } from "react";
-import Me from "../../public/me.png";
+import Me from "../../src/me.png";
 import "./MeIconStyle.css";
 
 function Homepage({ setActiveBubble }) {
